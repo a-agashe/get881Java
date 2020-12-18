@@ -13,8 +13,12 @@ public class Calc {
 		return(a*b);
 	}
 	public static int divide(int a, int b) {
-		System.out.println(a*b);
+		System.out.println(a/b);
 		return(a/b);
+	}
+	public static int substract(int a, int b) {
+		System.out.println(a-b);
+		return(a-b);
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
